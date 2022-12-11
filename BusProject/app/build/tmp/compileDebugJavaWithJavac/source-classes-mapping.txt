@@ -3,6 +3,7 @@ com/hansung/android/busproject/UI/UpdateShadow.java
 com/hansung/android/busproject/UserActivity.java
  com.hansung.android.busproject.UserActivity
  com.hansung.android.busproject.UserActivity$1
+ com.hansung.android.busproject.UserActivity$2
 com/hansung/android/busproject/UI/UserGetThingShadow.java
  com.hansung.android.busproject.UI.UserGetThingShadow
 com/hansung/android/busproject/BuildConfig.java
@@ -12,5 +13,6 @@ com/hansung/android/busproject/httpconnection/PutRequest.java
 com/hansung/android/busproject/ControlActivity.java
  com.hansung.android.busproject.ControlActivity
  com.hansung.android.busproject.ControlActivity$1
+ com.hansung.android.busproject.ControlActivity$2
 com/hansung/android/busproject/httpconnection/GetRequest.java
  com.hansung.android.busproject.httpconnection.GetRequest

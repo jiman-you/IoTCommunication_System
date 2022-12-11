@@ -44,8 +44,8 @@ public class UserGetThingShadow extends GetRequest {
         if (jsonString == null)
             return;
         Map<String, String> state = getStateFromJSONString(jsonString);
-        TextView servostate = activity.findViewById(R.id.servostate);
-        servostate.setText(state.get("servostate"));
+        TextView countstate = activity.findViewById(R.id.countstate);
+        countstate.setText(state.get("countstate"));
 
     }
 

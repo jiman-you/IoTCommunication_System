@@ -2695,6 +2695,7 @@ int id content 0x7f080087
 int id contentPanel 0x7f080088
 int id contiguous 0x7f080089
 int id continuousVelocity 0x7f08008a
+int id controlbtn 0x7f0801f4
 int id coordinator 0x7f08008b
 int id cos 0x7f08008c
 int id count 0x7f08008d
@@ -2944,7 +2945,6 @@ int id search_voice_btn 0x7f080180
 int id select_dialog_listview 0x7f080181
 int id selected 0x7f080182
 int id selection_type 0x7f080183
-int id servostate 0x7f080184
 int id sharedValueSet 0x7f080185
 int id sharedValueUnset 0x7f080186
 int id shortcut 0x7f080187
