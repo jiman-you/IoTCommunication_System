@@ -60,16 +60,12 @@ public class UserGetThingShadow extends GetRequest {
             JSONObject root = new JSONObject(jsonString);
             JSONObject state = root.getJSONObject("state");
             JSONObject reported = state.getJSONObject("reported");
-            String weightvalue = reported.getString("WEIGHT");
-            String servovalue = reported.getString("SERVO");
-            String shockvalue = reported.getString("SHOCK");
-            output.put("weghitstate", weightvalue);
-            output.put("servostate", servovalue);
-            output.put("shockstate", shockvalue);
+            String countvalue = reported.getString("SR_COUNT");
+            output.put("countstate", countvalue);
 
             JSONObject desired = state.getJSONObject("desired");
-            String desired_servo = desired.getString("servostate");
-            output.put("desired_servo", desired_servo);
+            String desired_count = desired.getString("countstate");
+            output.put("desired_servo", desired_count);
 
 
         } catch (JSONException e) {
